@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.khan.musicapp.MainActivity"
+    android:orientation="vertical"
+    android:background="#FF9"
+    >
+    <TextView
+        android:id="@+id/numbers"
+        android:text="@string/numberActivity"
+        style="@style/activityStyle"
+        android:background="#CC00"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:id="@+id/colors"
+        android:text="@string/colorsActivity"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="#EE08"
+        style="@style/activityStyle"
+        />
+
+    <TextView
+        android:id="@+id/family"
+        android:text="@string/familyActivity"
+        style="@style/activityStyle"
+        android:background="#EAF1"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_width="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/phrases"
+        android:text="@string/phrasesActivity"
+        style="@style/activityStyle"
+        android:background="#BB01"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_width="match_parent"
+        />
+</LinearLayout>

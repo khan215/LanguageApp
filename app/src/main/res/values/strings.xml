@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="numberActivity">Numbers</string>
+    <string name="colorsActivity">Colors</string>
+    <string name="phrasesActivity">Phrases</string>
+    <string name="familyActivity">Family</string>
+</resources>
